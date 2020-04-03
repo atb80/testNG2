@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+
+
+    <test name="precoditions">
+
+        <classes>
+
+            <class name="TF3">
+                <methods>
+
+                    <include name="TestStep3"/>
+                    <include name="TestStep2"/>
+
+                </methods>
+            </class>
+            <class name="TF4">
+                <methods>
+                    <include name="TestStep4a"/>
+                    <include name="TestStep4b"/>
+                </methods>
+            </class>
+
+
+
+        </classes>
+
+
+
+
+    </test>
+
+
+
+
+</suite>
